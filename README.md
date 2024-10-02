@@ -59,31 +59,31 @@
 
 - **HTML** 
   
-![alt](Ejemplo_cod_HTML.png)
+![alt](Fotos_codigos/Ejemplo_cod_HTML.png)
 
 >La estructura HTML de una página web se compone de las etiquetas <html>, que indica el comienzo de la página; <head>, que contiene información más descriptiva sobre el sitio; y <body>, que conforma todos los elementos visibles de la página.
 
 - **iCalendar**
 
-![alt](Ejemplo_cod_iCalendar.png)
+![alt](Fotos_codigos/Ejemplo_cod_iCalendar.png)
 
 > La estructura del código iCalendar se inicia con BEGIN:VCALENDAR, que marca el comienzo del calendario. Incluye propiedades como VERSION y CALSCALE. Cada evento dentro del calendario comienza con BEGIN:VEVENT y finaliza con END:VEVENT, conteniendo detalles como SUMMARY, DTSTART (fecha y hora de inicio) y DTEND (fecha y hora de finalización). Finalmente, el calendario concluye con END:VCALENDAR.
 
 - **vCard** 
   
-![alt](Ejemplo_cod_vCard.png)
+![alt](Fotos_codigos/Ejemplo_cod_vCard.png)
 
 > La estructura del código vCard comienza con BEGIN:VCARD, que marca el inicio de la tarjeta de contacto. Incluye propiedades como VERSION y FN (nombre completo). También puede contener TEL (teléfono), EMAIL (correo electrónico) y ADR (dirección). Finaliza con END:VCARD, que indica el cierre de la tarjeta.
 
 - **KML**
 
-![alt](Ejemplo_cod_KML.png)
+![alt](Fotos_codigos/Ejemplo_cod_KML.png)
 
 > La estructura del código KML comienza con `<?xml version="1.0" encoding="UTF-8"?>` y sigue con `<kml>`. Dentro de `<kml>`, se encuentra `<Document>`, que incluye elementos como `<name>` y `<description>`. Los elementos geoespaciales se definen con `<Placemark>`. El archivo termina con `</Document>` y `</kml>`.
   
 - **RSS**
 
-![alt](Ejemplo_cod_RSS.png)
+![alt](Fotos_codigos/Ejemplo_cod_RSS.png)
 
 > La estructura del código RSS comienza con `<?xml version="1.0" encoding="UTF-8"?>` y sigue con `<rss>`. Dentro de `<rss>`, se encuentra `<channel>`, que incluye `<title>`, `<link>` y `<description>`. Cada artículo se define con `<item>`, que contiene su propio `<title>`, `<link>` y `<description>`. El archivo termina con `</channel>` y `</rss>`.
 
